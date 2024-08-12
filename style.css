@@ -1,0 +1,40 @@
+p {
+    color: red;
+}
+
+.box {
+    color: green;
+}
+
+#box1 {
+    color: blue;
+}
+
+p[data-type="info"] {
+    color: orange;
+}
+
+section h1 {
+    color: purple;
+}
+
+footer>.footer-box {
+    color: gray;
+}
+
+.text,
+h1 {
+    color: teal;
+}
+
+.box.special {
+    color: gold;
+}
+
+p.text[data-type="warning"] {
+    font-weight: bold;
+}
+
+.container p.nested {
+    background-color: lightgray;
+}
